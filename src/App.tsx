@@ -42,6 +42,10 @@ export default function App() {
 
   return (
     <div>
+      <header>
+        <h1>TIC-TAC-TOE</h1>
+        <p>Tap inside the squares to play</p>
+      </header>
       <div className="grid">
         <Square position={0} value={state.positions[0]} taketurn={takeTurn}/>
         <Square position={1} value={state.positions[1]} taketurn={takeTurn}/>
