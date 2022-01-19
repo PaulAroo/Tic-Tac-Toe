@@ -21,7 +21,7 @@ jobs:
 
     - name: 📦 npm install and build
       shell: bash
-      run: npm ci && npm run build -s
+      run: npm ci && npm run build -src
 
     - name: 🗃️ copy node_modules
       shell: bash
